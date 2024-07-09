@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import NavBar from "../components/NavBar";
+import HomeImage from "../assets/Cyber-attack-amico.png"
 
 
 const Home = () => {
@@ -29,8 +30,9 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="w-1/2">
-        {/* Add your image or any additional content here */}
+      <div className="w-1/2 flex justify-center">
+
+      <img className="w-2/3" src={HomeImage} alt="Home Image"/>
       </div>
     </div>
     </>
