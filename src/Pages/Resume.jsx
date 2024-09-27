@@ -1,6 +1,5 @@
 import React from 'react';
 import resume from '../assets/M2-MeriboutAhmed.png';
-import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 
 const Resume = () => {
