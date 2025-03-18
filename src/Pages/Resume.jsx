@@ -5,7 +5,6 @@ const Resume = () => {
   
   return (
     <div className="flex flex-col justify-center items-center h-full p-5">
-    <img src={resume}/>
     </div>
   );
 };
